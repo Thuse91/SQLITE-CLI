@@ -1,0 +1,249 @@
+Changelog
+-----------
+
+
+v.3.0
+Goal : Add error handling into User-input functions.
+Status : ** IN PROGRESS **
+---------------------------------------------
+
+v.2.9
+Goal : Document with JSdoc
+Status : Semi-completed.
+---------------------------------------------
+
+v.2.8
+Goal : Check so there is comments and self-explaining variable names.
+Status : Completed!
+---------------------------------------------
+
+v.2.7
+Goal : Remove old code / scrapped code
+Status : Completed!
+Note : Saved 1 piece of code that is a work in progress.
+---------------------------------------------
+
+v.2.6
+Goal : Add function to delete specific line of test data
+Status : Completed!
+---------------------------------------------
+
+v.2.5
+Goal : Modify Database-insert function to take user-input.
+Status : Completed!
+---------------------------------------------
+
+v.2.4
+Goal : Create atleast 10 Jest-tests.
+Status : Completed!
+---------------------------------------------
+
+v.2.3
+Goal : Modify database-edit function to fit the study-guide specifications.
+Status : Completed!
+---------------------------------------------
+
+v.2.2
+Goal : Restructure functions to earlier if-else structure.
+Status : Completed!
+---------------------------------------------
+
+v.2.1
+Goal : Alter Function to a working try-catch structure.
+Status : Failed - Many re-tries and didnt gett it to work.
+---------------------------------------------
+
+v.2.0
+Goal : Update the Usage guide in the top of the program.
+Status : Completed!
+---------------------------------------------
+
+v.1.9
+Goal : Rename unclear variablenames to clear and understandable names.
+Status : Completed!
+---------------------------------------------
+
+v.1.8
+Goal : Add comments for new functions and code
+Status : Completed!
+---------------------------------------------
+
+v.1.7
+Goal : Create function to valdiate Country
+Status : Awaiting feedback
+---------------------------------------------
+
+v.1.6
+Goal : Create function to check a variable towards min-max amount of character input
+Status : Awaiting feedback
+---------------------------------------------
+
+v.1.5
+Goal : Create function to valdiate Name
+Status : Awaiting feedback
+---------------------------------------------
+
+v.1.4
+Goal : Create function to check if ID is unique.
+Status : Awaiting feedback
+---------------------------------------------
+
+v.1.3
+Goal : Create randomiser functions.
+Status : IN PROGRESS *********
+---------------------------------------------
+
+v.1.2
+Goal : Create a function to check if in-put data is Correct aka (Phone number is legit)
+Status : Awaiting feedback
+---------------------------------------------
+
+v.1.1
+Goal : Put function variables outside to increase testability.
+Status : Completed! ---- UPDATE REVERSED -----
+Info : Misunderstanding caused this unneeded update and functions have bin reverted to their original structure.
+---------------------------------------------
+
+v.1.0
+Goal : Final polish and propper look thru so everything looks good.
+Status :  Polished and looked over content up to this point, will need another pass on new content in the future.
+Extra : Added colored Console.log Texts to functions and errors to make things that happen more clear.
+---------------------------------------------
+
+v.0.9.9
+Goal : Transfer Database-file, CSV-file, JS-file to a new location, import dependencies and init the location to make sure everything works.
+Status :  Completed!
+---------------------------------------------
+
+v.0.9.5
+Goal : Trim unneccessary code and old commented out code away from the JS-file.
+Status :  Removed alot of old unneccessary code/comments that isnt needed anymore, will need a second look thru after new content has bin created.
+---------------------------------------------
+
+v.0.9.0
+Goal : Create the final Edit Value Function.
+Status :  Completed!
+---------------------------------------------
+
+v.0.8.5
+Goal : Change some unclear variable names to better ones
+Status :  Completed! Changed many unclear variables more clear, even to the point of over-doing it.
+---------------------------------------------
+
+v.0.8.0
+Goal : Add Comments to the existing code to make it easier to understand
+Status : Completed!
+---------------------------------------------
+
+v.0.7.7
+Goal : Create a guiding "interface" text at the top of the JS-file to have all commands and explaination for them to propperly navigate the program.
+Status : Completed!
+---------------------------------------------
+
+v.0.7.5
+Goal : Create a guiding "interface" text at the top of the JS-file to have all dependencies needed to run the program.
+Status : Completed!
+---------------------------------------------
+
+v.0.7.0
+Goal : Fix to be able to push data from Node.js to SQLite
+Status : While attempting random things due to the "Error: SQLITE_RANGE: column index out of range" error
+i stumbled uppon something that made it work even if im not sure it should.
+Attempt 1 : Remove "identifiers" in the top of the CSV-file like "ID, Name, Phone..."
+Result 1 : Led to another error and nothing new.
+Attempt 2 : Changed the "identifiers" in the top of the CSV-file like "ID, Name, Phone..." to "1,2,3,4,5"
+Result 2 : The data was succesfully loaded into the database!!!
+---------------------------------------------
+
+v.0.6.7.0
+Goal : Ask for help on StackOverflow.
+Status : This road led to nothing.
+---------------------------------------------
+
+v.0.6.9.5
+Goal : Push data from Node.js to SQLite
+Status : Error: SQLITE_RANGE: column index out of range
+Attempt 1 : Fully load in my entire CSV-file
+Attempt 2 : Removed Identifiers and leaving only column data in CSV-file
+Attempt 3 : Created new table with only 1 Column and 1 data Sample
+
+Result : Same error no matter what.
+
+---------------------------------------------
+v.0.6.9.1
+Goal : look thru node-csv and fast-csv module documentations for possible solutions.
+Status : Found and managed to load CSV-file into Terminal in node.js
+
+---------------------------------------------
+v.0.6.9
+Goal : Browse for code solutions on StackOverflow to read in CSV file into node.js
+Status : alot of solutions but couldnt get the ones i tried to work.
+
+---------------------------------------------
+v.0.6.8
+Goal : Browse for code solutions via tutorials to read in CSV file into node.js
+Status : The solutions i found was either not was i was looking for or i couldnt get it to work.
+
+---------------------------------------------
+v.0.6.7
+Goal : Import code solution for node-csv module to try and get the CSV-file to read
+Status : got errors and couldnt get it to work.
+
+---------------------------------------------
+v.0.6.6
+Goal : Import code solution for fast-csv module to try and get the CSV-file to read
+Status : got errors and couldnt get it to work.
+
+---------------------------------------------
+v.0.6.5
+Goal : Search for a method to read a CSV-file into a SQLite database via Node.js
+Status : Found that it might be possible to Read in the CSV-file into Node.js
+then loop it into the mydb.db database.
+
+---------------------------------------------
+v.0.6.0
+Goal : Import the CSV-file with the Sample Data into the SQLite mydb.db database via Node.js
+Status : Failed.
+External material : Google, Stackoverflow and countless random tutorial pages.
+Attempt 1 : Specific commands like .import , .mode csv and more arent supported to send from Node.js to SQlite.
+Attempt 2 : Installing Module support to be able to use .import and import a csv-file into SQlite via Node.js
+Attempt 3 : Install Modules and use Code i found on the internet to somehow import a csv-file into SQlite via Node.js 
+
+---------------------------------------------
+v.0.5.0
+Goal : Create a CSV-file with Sample Data to be able to import it into the mydb.db database via Node.js
+Status : Successfully created a CSV-file with data.
+
+---------------------------------------------
+v.0.4.0
+Goal : Create a function to Clear all data from the mydb.db database without dropping the database or deleting the table structure.
+Status : Successfully created function.
+
+---------------------------------------------
+v.0.3.0
+Goal : Create a function to add data to the mydb.db database
+Status : Successfully created function.
+
+---------------------------------------------
+v.0.2.0
+Goal : Create a function to display all data in the mydb.db database.
+Status : Successfully created function.
+
+---------------------------------------------
+v.0.1.0
+Goal : Connect the SQLite Database to Node.js
+Status : Successfully created a connection.
+External material: https://www.sqlitetutorial.net/sqlite-nodejs/
+
+---------------------------------------------
+v.0.0.9
+Goal : Populate the mydb.db with sample data.
+Status : Downloaded DB browser for SQLite and successfully added data to mydb.db
+
+---------------------------------------------
+v.0.0.5
+Goal : Setup SQLite, Node.js and neccessary files.
+Status : Successfully installed Node.js , SQLite3 and NPM dependencies.
+Files : Created app.js and mydb.db
+
+---------------------------------------------
